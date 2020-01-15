@@ -6,8 +6,8 @@ public class MoveWords{
     public static final int GANA = 1;
     public static final int PIERDE = 2;
     
-    private static final String[] validMoves = {"PIEDRA", "SPOCK", "PAPEL", "LAGARTIJA", "TIJERAS"};/* Se añaden las nuevas opciones y se cambia el orden del array de tal manera que
-     																								   cada uno derrota a los dos anteriores y es derrotado por los dos posteriores*/
+    private static final String[] validMoves = {"PIEDRA", "SPOCK", "PAPEL", "LAGARTIJA", "TIJERAS"};/* Se añaden las nuevas opciones y
+    se cambia el orden del array de tal manera que cada uno derrota a los dos anteriores y es derrotado por los dos posteriores*/
     private static final String[] validCommands = {"SALIR", "HELP"};
 
     private Random rnd;
